@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cubo
+* source:	https://sketchfab.com/3d-models/cubo-103509f334ec472abf5a3a4a7f39ed89
+* author:	Cesar_24 (https://sketchfab.com/Cesar_24)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cubo" (https://sketchfab.com/3d-models/cubo-103509f334ec472abf5a3a4a7f39ed89) by Cesar_24 (https://sketchfab.com/Cesar_24) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
