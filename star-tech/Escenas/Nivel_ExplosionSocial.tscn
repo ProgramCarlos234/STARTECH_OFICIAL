@@ -1,0 +1,49 @@
+[gd_scene load_steps=9 format=3 uid="uid://1m77i4v2ewuq"]
+
+[ext_resource type="PackedScene" uid="uid://xf8xy44o7bgg" path="res://Personaje/Personaje3D.tscn" id="1_fjiwt"]
+[ext_resource type="Script" uid="uid://bp0xflrtg2e3m" path="res://Scripts/camera_3d.gd" id="2_m4n06"]
+[ext_resource type="PackedScene" uid="uid://c8mlrd81f26wt" path="res://Escenas/pausa.tscn" id="3_od3xw"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_hn1sq"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_r148l"]
+data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, -0.5)
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_td28j"]
+
+[sub_resource type="Sky" id="Sky_vnfir"]
+sky_material = SubResource("ProceduralSkyMaterial_td28j")
+
+[sub_resource type="Environment" id="Environment_2g8xd"]
+background_mode = 2
+sky = SubResource("Sky_vnfir")
+
+[node name="Mundo_Introduccion" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(69.31291, 0, 0, 0, 1, 0, 0, 0, 22.074732, 0, 0, 0)
+mesh = SubResource("BoxMesh_hn1sq")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_r148l")
+
+[node name="CharacterBody3D" parent="." instance=ExtResource("1_fjiwt")]
+transform = Transform3D(0.9999999, 0, 0, 0, 1, 0, 0, 0, 1, -1.9535621, 1.9642658, -0.07635072)
+SPEED = 7.0
+JUMP_VELOCITY = 10.0
+FuerzaGravedad = 2
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.92828476, 0.37187016, 0, -0.37187016, 0.92828476, 0, 10.223305, 18.83939)
+current = true
+script = ExtResource("2_m4n06")
+
+[node name="Pausa" parent="Camera3D" instance=ExtResource("3_od3xw")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_2g8xd")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.383324, 6.8453197, -33.223217)

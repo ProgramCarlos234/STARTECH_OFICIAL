@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dreamiokt4tss"]
+
+[ext_resource type="Script" uid="uid://8le42ut1el8d" path="res://Scripts/area_3d.gd" id="1_lroe3"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_io3xs"]
+
+[node name="Area3D" type="Area3D"]
+script = ExtResource("1_lroe3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 209.98906, 0, 0, 0, 317.27136, 0, 0, 0)
+shape = SubResource("BoxShape3D_io3xs")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
