@@ -1,0 +1,11 @@
+Model Information:
+* title:	Projeto laboratório de Robótica
+* source:	https://sketchfab.com/3d-models/projeto-laboratorio-de-robotica-661fa84225dc4d52a3b8ae93cf21f961
+* author:	Robótica Paraná (https://sketchfab.com/roboticaparana)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Projeto laboratório de Robótica" (https://sketchfab.com/3d-models/projeto-laboratorio-de-robotica-661fa84225dc4d52a3b8ae93cf21f961) by Robótica Paraná (https://sketchfab.com/roboticaparana) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

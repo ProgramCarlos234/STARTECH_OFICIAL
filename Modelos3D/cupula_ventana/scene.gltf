@@ -1,0 +1,386 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 748,
+      "max": [
+        793.7501220703125,
+        599.8983764648438,
+        756.8118286132813
+      ],
+      "min": [
+        -793.7500610351563,
+        5.745849609375,
+        -756.8118896484375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 8976,
+      "componentType": 5126,
+      "count": 748,
+      "max": [
+        0.9998013973236084,
+        0.9993235468864441,
+        0.9999944567680359
+      ],
+      "min": [
+        -0.9998014569282532,
+        -0.9943992495536804,
+        -0.9999944567680359
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 748,
+      "max": [
+        0.7661222219467163,
+        0.8652491569519043
+      ],
+      "min": [
+        0.07035797834396362,
+        0.0301189124584198
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 1740,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 17952,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        808.26708984375,
+        802.9305419921875,
+        768.707763671875
+      ],
+      "min": [
+        -808.2671508789063,
+        24.1043701171875,
+        -768.7078857421875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 19416,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        0.9966196417808533,
+        1.0,
+        0.9478415846824646
+      ],
+      "min": [
+        -0.9966196417808533,
+        -1.0,
+        -0.9478417634963989
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 5984,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        0.43224766850471497,
+        0.988115131855011
+      ],
+      "min": [
+        0.008632635697722435,
+        0.5427265763282776
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 6960,
+      "componentType": 5125,
+      "count": 660,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 20880,
+      "componentType": 5126,
+      "count": 148,
+      "max": [
+        948.8280029296875,
+        37.56695556640625,
+        902.3892822265625
+      ],
+      "min": [
+        -948.8280029296875,
+        -0.00030517578125,
+        -902.3892822265625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 22656,
+      "componentType": 5126,
+      "count": 148,
+      "max": [
+        0.9404462575912476,
+        0.9999816417694092,
+        0.9888438582420349
+      ],
+      "min": [
+        -0.9404477477073669,
+        -0.999824047088623,
+        -0.9888438582420349
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 6960,
+      "componentType": 5126,
+      "count": 148,
+      "max": [
+        0.9103320837020874,
+        0.9532887935638428
+      ],
+      "min": [
+        0.152724027633667,
+        0.011884868144989014
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 9600,
+      "componentType": 5125,
+      "count": 300,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Mitsere (https://sketchfab.com/Mitsere)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cupula-ventana-285bf819d9e64abe9c13e5e1de35ccd1",
+      "title": "Cupula_Ventana"
+    },
+    "generator": "Sketchfab-13.44.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 10800,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8144,
+      "byteOffset": 10800,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24432,
+      "byteOffset": 18944,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 43376,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Metal_Tex",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Vidrio_Tex",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.07360009498849804,
+          0.10286909763063108,
+          0.10032725963936598,
+          0.5
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "MayolicPedestal_Tex",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cupula_Ventana_Metal_Tex_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cupula_Ventana_Vidrio_Tex_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cupula_Ventana_MayolicPedestal_Tex_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "10086394307f4feba2f581c0364f4f21.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6
+      ],
+      "name": "Cupula_Ventana"
+    },
+    {
+      "mesh": 0,
+      "name": "Cupula_Ventana_Metal_Tex_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Cupula_Ventana_Vidrio_Tex_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Cupula_Ventana_MayolicPedestal_Tex_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

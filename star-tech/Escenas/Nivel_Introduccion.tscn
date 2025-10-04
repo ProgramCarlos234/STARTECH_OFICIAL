@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://bs1i64qmmqkuv"]
+[gd_scene load_steps=8 format=3 uid="uid://bs1i64qmmqkuv"]
 
 [ext_resource type="PackedScene" uid="uid://xf8xy44o7bgg" path="res://Personaje/Personaje3D.tscn" id="1_1cih6"]
+[ext_resource type="PackedScene" uid="uid://di5i35qxkw3o7" path="res://Modelos3D/arbol_descarga/scene.gltf" id="2_hn1sq"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_hn1sq"]
 
@@ -39,3 +40,6 @@ environment = SubResource("Environment_1cih6")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.13383, 6.8453197, 13.233421)
+
+[node name="Sketchfab_Scene" parent="." instance=ExtResource("2_hn1sq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.871899, 0.50000095, 0.4283577)

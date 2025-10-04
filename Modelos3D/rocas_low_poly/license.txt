@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rocas Low Poly
+* source:	https://sketchfab.com/3d-models/rocas-low-poly-93fa3fbf84c4418fa58795cfe48e480f
+* author:	Elbolillo (https://sketchfab.com/Elbolilloduro)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rocas Low Poly" (https://sketchfab.com/3d-models/rocas-low-poly-93fa3fbf84c4418fa58795cfe48e480f) by Elbolillo (https://sketchfab.com/Elbolilloduro) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

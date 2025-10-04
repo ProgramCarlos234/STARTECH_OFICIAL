@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mesa
+* source:	https://sketchfab.com/3d-models/mesa-524980260e8442648054dfc924739011
+* author:	kajetudo (https://sketchfab.com/kajetudo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mesa" (https://sketchfab.com/3d-models/mesa-524980260e8442648054dfc924739011) by kajetudo (https://sketchfab.com/kajetudo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

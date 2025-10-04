@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cabo Da Roca Dirt & Roots (Scaniverse)
+* source:	https://sketchfab.com/3d-models/cabo-da-roca-dirt-roots-scaniverse-af9ade46c5554d089b0fa9e2e8f0e908
+* author:	JFN (https://sketchfab.com/db4)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cabo Da Roca Dirt & Roots (Scaniverse)" (https://sketchfab.com/3d-models/cabo-da-roca-dirt-roots-scaniverse-af9ade46c5554d089b0fa9e2e8f0e908) by JFN (https://sketchfab.com/db4) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

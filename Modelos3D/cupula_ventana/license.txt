@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cupula_Ventana
+* source:	https://sketchfab.com/3d-models/cupula-ventana-285bf819d9e64abe9c13e5e1de35ccd1
+* author:	Mitsere (https://sketchfab.com/Mitsere)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cupula_Ventana" (https://sketchfab.com/3d-models/cupula-ventana-285bf819d9e64abe9c13e5e1de35ccd1) by Mitsere (https://sketchfab.com/Mitsere) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

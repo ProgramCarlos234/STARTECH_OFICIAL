@@ -1,0 +1,11 @@
+Model Information:
+* title:	televisor modelo
+* source:	https://sketchfab.com/3d-models/televisor-modelo-0925c1580d59481ea4da5998f36c8135
+* author:	Vicxtream (https://sketchfab.com/durandv90)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "televisor modelo" (https://sketchfab.com/3d-models/televisor-modelo-0925c1580d59481ea4da5998f36c8135) by Vicxtream (https://sketchfab.com/durandv90) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
