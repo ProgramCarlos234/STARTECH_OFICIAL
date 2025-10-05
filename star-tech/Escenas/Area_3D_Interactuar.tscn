@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://brgae1r3pqphk"]
+
+[ext_resource type="Script" uid="uid://p7cub61fkhw7" path="res://Scripts/area_3d_interactuar.gd" id="1_tlx5l"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ve85v"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_tlx5l"]
+
+[node name="Area3D" type="Area3D"]
+script = ExtResource("1_tlx5l")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+shape = SubResource("BoxShape3D_ve85v")
+debug_color = Color(0.8352941, 0, 0.93333334, 1)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_tlx5l")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

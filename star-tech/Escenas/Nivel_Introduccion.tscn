@@ -1,12 +1,13 @@
-[gd_scene load_steps=13 format=3 uid="uid://bs1i64qmmqkuv"]
+[gd_scene load_steps=14 format=3 uid="uid://bs1i64qmmqkuv"]
 
 [ext_resource type="PackedScene" uid="uid://xf8xy44o7bgg" path="res://Personaje/Personaje3D.tscn" id="1_0hnl1"]
-[ext_resource type="PackedScene" uid="uid://di5i35qxkw3o7" path="res://Modelos3D/arbol_descarga/scene.gltf" id="2_cs6wo"]
 [ext_resource type="Script" uid="uid://bp0xflrtg2e3m" path="res://Scripts/camera_3d.gd" id="2_td28j"]
 [ext_resource type="PackedScene" uid="uid://c8mlrd81f26wt" path="res://Escenas/pausa.tscn" id="3_td28j"]
 [ext_resource type="AudioStream" uid="uid://cckl5kx2eg3l2" path="res://Musica/auroras-ambience-pads_A#_major.wav" id="4_cr1ty"]
 [ext_resource type="PackedScene" uid="uid://dreamiokt4tss" path="res://Escenas/area_3D.tscn" id="5_vnfir"]
 [ext_resource type="Resource" uid="uid://mtbr8co2svvl" path="res://Dialogos/PruebaDialago1.dialogue" id="6_2g8xd"]
+[ext_resource type="PackedScene" uid="uid://brgae1r3pqphk" path="res://Escenas/Area_3D_Interactuar.tscn" id="8_errea"]
+[ext_resource type="PackedScene" uid="uid://cdqyv636eg0gc" path="res://Modelos3D/Escenas_Modelos/sketchfab_scene.tscn" id="9_8er0a"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_hn1sq"]
 
@@ -56,11 +57,17 @@ autoplay = true
 environment = SubResource("Environment_2g8xd")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.383324, 6.8453197, -33.223217)
-
-[node name="Sketchfab_Scene" parent="." instance=ExtResource("2_cs6wo")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.871899, 0.50000095, 0.4283577)
+transform = Transform3D(0.9891363, 0.0133235995, -0.14639647, 0.10795279, 0.61012423, 0.78491694, 0.09977795, -0.7921938, 0.6020577, -25.26575, 18.005732, 19.635704)
+shadow_enabled = true
+sky_mode = 1
 
 [node name="Area3D" parent="." instance=ExtResource("5_vnfir")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.346274, 1.428256, 0.18942976)
 dialogo = ExtResource("6_2g8xd")
+
+[node name="Area3D2" parent="." instance=ExtResource("8_errea")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.490967, 3.4900112, 1.3994017)
+IndiceMundo = 1
+
+[node name="Sketchfab_Scene2" parent="." instance=ExtResource("9_8er0a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.96337, 1, -1)
