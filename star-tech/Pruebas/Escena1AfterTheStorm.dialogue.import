@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cpgvmsglm04cc"
+path="res://.godot/imported/Escena1AfterTheStorm.dialogue-9cd1e2df6492015824f1773e4eb56e59.tres"
+
+[deps]
+
+source_file="res://Pruebas/Escena1AfterTheStorm.dialogue"
+dest_files=["res://.godot/imported/Escena1AfterTheStorm.dialogue-9cd1e2df6492015824f1773e4eb56e59.tres"]
+
+[params]
+
+defaults=true

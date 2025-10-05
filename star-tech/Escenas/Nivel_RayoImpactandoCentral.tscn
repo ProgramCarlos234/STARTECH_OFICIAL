@@ -1,8 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://7k6cndst2gn6"]
+[gd_scene load_steps=10 format=3 uid="uid://bk8soubbifiex"]
 
 [ext_resource type="PackedScene" uid="uid://xf8xy44o7bgg" path="res://Personaje/Personaje3D.tscn" id="1_ukhi0"]
 [ext_resource type="Script" uid="uid://bp0xflrtg2e3m" path="res://Scripts/camera_3d.gd" id="2_iftfe"]
-[ext_resource type="PackedScene" uid="uid://c8mlrd81f26wt" path="res://Escenas/pausa.tscn" id="3_a5jjv"]
+[ext_resource type="PackedScene" path="res://Escenas/pausa.tscn" id="3_a5jjv"]
 [ext_resource type="PackedScene" uid="uid://di5i35qxkw3o7" path="res://Modelos3D/arbol_descarga/scene.gltf" id="4_5guj1"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_hn1sq"]

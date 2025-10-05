@@ -1,0 +1,12 @@
+~ start
+AMARU: Abuelito Abuelito, ¿Cuantas estrellas hay en el cielo?
+ABUELO: Tantas como los granos de tierra que recorren tus zapaatos, hijito y puede que incluso mucho más.
+PREGUNTAR AL ABUELO:
+- ¿A ti te gustan observarlas abuelito?
+	ABUELO: Desde que tenia tu edad, te soy sincero, aun me gustan. 
+- ¿Alguna vez te gusto estudiar las estrellas?
+	ABUELO: Mi sueño siempre fue estudiarlas y tal vez algun día salir haya afuera y verlas mas de cerca
+AMARU: Yo tambien quiero hacer eso abuelito.
+ABUELO: Jajaja! Estoy seguro que algun día lo lograras hijo.
+
+=> END
